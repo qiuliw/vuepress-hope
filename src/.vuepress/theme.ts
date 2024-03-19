@@ -8,8 +8,8 @@ export default hopeTheme({
   hostname: "https://mister-hope.github.io",
 
   author: {
-    name: "Mr.Hope",
-    url: "https://mister-hope.com",
+    name: "Qiuliw",
+    url: "https://www.github.io/qiuliw",
   },
 
   iconAssets: "fontawesome-with-brands",
@@ -32,7 +32,7 @@ export default hopeTheme({
 
   // 博客相关
   blog: {
-    description: "一个前端开发者",
+    description: "一个后端开发者",
     intro: "/intro.html",
     medias: {
       // Baidu: "https://example.com",
@@ -95,6 +95,15 @@ export default hopeTheme({
     //   provider: "Waline",
     //   serverURL: "https://waline-comment.vuejs.press",
     // },
+
+    comment: {
+      //启用评论
+      provider: "Giscus",
+      repo: "qiuliw/Giscus_DB",
+      repoId: "R_kgDOLiOguw",
+      category: "Announcements",
+      categoryId: "DIC_kwDOLiOgu84CeEJg"
+    },
 
     components: {
       components: ["Badge", "VPCard"],
