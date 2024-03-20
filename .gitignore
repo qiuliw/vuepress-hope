@@ -4,5 +4,6 @@ src/.vuepress/.temp/
 src/.vuepress/dist/
 
 # obsidian
+.obsidian
 .trash
 
