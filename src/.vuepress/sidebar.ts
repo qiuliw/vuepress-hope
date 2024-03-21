@@ -2,11 +2,17 @@ import { sidebar } from "vuepress-theme-hope";
 
 export default sidebar({
   "/": [
+    // {
+    //   text: "如何使用",
+    //   icon: "laptop-code",
+    //   prefix: "demo/",
+    //   link: "demo/",
+    //   children: "structure",
+    // },
     {
-      text: "如何使用",
-      icon: "laptop-code",
-      prefix: "demo/",
-      link: "demo/",
+      text: "接本",
+      icon: "book",
+      prefix: "jieben/",
       children: "structure",
     },
     // {
@@ -15,12 +21,12 @@ export default sidebar({
     //   prefix: "posts/",
     //   children: "structure",
     // },
-    "intro",
-    {
-      text: "幻灯片",
-      icon: "person-chalkboard",
-      link: "https://plugin-md-enhance.vuejs.press/zh/guide/content/revealjs/demo.html",
-    },
+    // "intro",
+    // {
+    //   text: "幻灯片",
+    //   icon: "person-chalkboard",
+    //   link: "https://plugin-md-enhance.vuejs.press/zh/guide/content/revealjs/demo.html",
+    // },
   ],
 
 });
