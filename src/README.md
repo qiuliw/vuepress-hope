@@ -4,8 +4,8 @@ layout: BlogHome
 icon: home
 title: 首页
 # 只能使用绝对路径
-heroImage: /assets/images/a.png
-heroText: 听雨轩
+# heroImage: /assets/images/a.png
+heroText: 阿Q的博客
 heroFullScreen: true
 tagline: 碌碌谋生，谋其所爱。
 projects:

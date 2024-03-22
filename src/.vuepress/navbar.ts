@@ -48,6 +48,10 @@ export default navbar([
     text: "接本",
     icon: "pen-to-square",
     link: "jieben/"
+  },{
+    text: "归途",
+    icon: "pen-to-square",
+    link: "end/"
   }
   // {
   //   text: "V2 文档",
